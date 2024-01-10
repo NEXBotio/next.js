@@ -76,7 +76,7 @@ See the [Metadata Fields](#metadata-fields) for a complete list of supported opt
 
 ## `generateMetadata` function
 
-Dynamic metadata depends on **dynamic information**, such as the current route parameters, external data, or `metadata` in parent segments, can be set by exporting a `generateMetadata` function that returns a [`Metadata` object](#metadata-fields).
+Dynamic metadata that depends on **dynamic information**, such as the current route parameters, external data, or `metadata` in parent segments, can be set by exporting a `generateMetadata` function that returns a [`Metadata` object](#metadata-fields).
 
 ```tsx filename="app/products/[id]/page.tsx" switcher
 import { Metadata, ResolvingMetadata } from 'next'
